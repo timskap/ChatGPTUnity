@@ -9,8 +9,8 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-#/UserSettings/
-#/Assets/TextMesh Pro/
+/UserSettings/
+/Assets/TextMesh Pro/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -44,7 +44,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-#*.idea
+*.idea
 
 # Unity3D generated meta files
 *.pidb.meta
