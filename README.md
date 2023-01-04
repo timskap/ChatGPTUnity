@@ -11,30 +11,6 @@ This Unity script allows you to send chat requests to OpenAI's GPT-3 API and rec
 To use the `ChatGPTApi` class, you will need to do the following:
 
 1. Obtain an API key from [here](https://beta.openai.com/account/api-keys).
-2. Set the `token` field to your API key: private static string token = "TOKEN";
-3. Subscribe to the `OnMessageReceived` action in order to receive chat responses:
-
-ChatGPTApi.OnMessageReceived += OnMessageReceived;
-
-void OnMessageReceived(ChatGPTResponse chatResponse)
-{
-// Handle the chat response here
-}
-Certainly! Here is the documentation text as a Markdown source:
-
-# ChatGPTUnity
-
-This Unity script allows you to send chat requests to OpenAI's GPT-3 API and receive responses. It is composed of a single static class, `ChatGPTApi`, which has the following features:
-
-- A `SendChatRequest` function that sends a chat request to the GPT-3 API and invokes a callback with the response.
-- An `OnMessageReceived` action that you can subscribe to in order to receive chat responses.
-- A `token` field that you should set to your OpenAI API key in order to authenticate your requests.
-
-## Usage
-
-To use the `ChatGPTApi` class, you will need to do the following:
-
-1. Obtain an API key from [here](https://beta.openai.com/account/api-keys).
 2. Set the `token` field to your API key:
 
 private static string token = "TOKEN";
