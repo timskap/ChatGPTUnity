@@ -1,4 +1,4 @@
-# ChatGPTUnity
+# Chat GPT for Unity
 
 This Unity script allows you to send chat requests to OpenAI's GPT-3 API and receive responses. It is composed of a single static class, `ChatGPTApi`, which has the following features:
 
